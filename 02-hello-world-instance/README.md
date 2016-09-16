@@ -10,8 +10,8 @@ The function will now be an instance method on a HelloWorld class. Objects of
 type HelloWorld will be initialized with a single name argument.
 
     wally = HelloWorld.new('Wally')
-    new.hello                       # Will output 'Hello, World. My name is Wally!'
-    new.hello('Alice')              # Will output 'Hello, Alice. My name is Wally!'
+    wally.hello                       # Will output 'Hello, World. My name is Wally!'
+    wally.hello('Alice')              # Will output 'Hello, Alice. My name is Wally!'
 
 ## Test-Driven Development
 
