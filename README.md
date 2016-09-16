@@ -37,12 +37,34 @@ Each of the folders in this repository contains a README file and a testing file
 > 
 > Exercism simulates [Test-Driven Development](http://en.wikipedia.org/wiki/Test-driven_development) (TDD), where you write your tests before writing any functionality. The simulation comes in the form of a pre-written test suite, which will signal that you have solved the problem.
 
-The tests are written using [Mini Test](https://github.com/seattlerb/minitest)
-a complete suite of testing facilities supporting TDD, BDD, mocking, and
-benchmarking.
+The tests are written using [Mini Test](https://github.com/seattlerb/minitest), a complete suite of testing facilities supporting TDD, BDD, mocking, and benchmarking.
 
 Each folder in this repository contains a single test file. You will need to read the provided test code to figure out what you need to implement in your code. It is important that you understand how tests can pass and fails. 
 
+Each test file will include a ruby class that inherites from `Minitest::Test`. Each method in these classes is a test. Each test will include some way to determine if the test passes or fails. Here are a few ways a test determines the pass/fail status.
 
+### Assert Equals
+
+Some tests will include a line that looks like this:
+
+    assert_equals 'Some hardcoded number, string or other value', some_method_call
+
+If the hardcoded value (the first argument) matches what is returned by the method call (the second argument), then the test passes. Otherwise the test will fail.
+
+### Assert
+
+Some tests will include a line that looks like this:
+
+    assert some_method_call, "Some hardcoded error message about the test expectations"
+
+If the method call (the first argument) returns `true` the test will pass. Otherwise the test will fail and the error message (the second argument) will be displayed.
+
+### Refute
+
+Some tests will include a line that looks like this:
+
+    refute some_method_call, "Some hardcoded error message about the test expectations"
+
+If the method call (the first argument) returns `false` the test will pass. Otherwise the test will fail and the error message (the second argument) will be displayed.
 
 
