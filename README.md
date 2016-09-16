@@ -67,4 +67,4 @@ Some tests will include a line that looks like this:
 
 If the method call (the first argument) returns `false` the test will pass. Otherwise the test will fail and the error message (the second argument) will be displayed.
 
-In all three cases the method_call being tested might be a class method or it could be an instance method. The type of method being tested will determine the type of method you need to implement to make the tests pass.
+In all three cases the method call being tested might be a class method or it could be an instance method. The type of method being tested will determine the type of method you need to implement to make the tests pass.
