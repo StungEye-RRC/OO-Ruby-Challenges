@@ -33,9 +33,9 @@ Each of the folders in this repository contains a README file and a testing file
 
 *Quoting Exercism:*
 
-As programmers mature, they eventually want to test their code.
-
-Exercism simulates [Test-Driven Development](http://en.wikipedia.org/wiki/Test-driven_development) (TDD), where you write your tests before writing any functionality. The simulation comes in the form of a pre-written test suite, which will signal that you have solved the problem.
+> As programmers mature, they eventually want to test their code.
+> 
+> Exercism simulates [Test-Driven Development](http://en.wikipedia.org/wiki/Test-driven_development) (TDD), where you write your tests before writing any functionality. The simulation comes in the form of a pre-written test suite, which will signal that you have solved the problem.
 
 The tests are written using [Mini Test](https://github.com/seattlerb/minitest)
 a complete suite of testing facilities supporting TDD, BDD, mocking, and
