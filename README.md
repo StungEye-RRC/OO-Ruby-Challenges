@@ -7,6 +7,23 @@ If you enjoy these please consider signing up for
 [exercism.io](http://exercism.io) and submitting your versions of the
 challenges.
 
+## Fetching and Running the Challenges
+
+To being you will need to clone this repository from the command prompt. The
+folder you are in when you run the clone command will be where the files end up.
+
+    git clone https://github.com/StungEye-RRC/OO-Ruby-Challenges.git
+
+To run the tests for the first challenge:
+
+    cd OO-Ruby-Challenges\01-hello-world
+    ruby ruby hello_world_test.rb
+
+As your instructor adds more challenges to the repo you can update your clone.
+Run the following from the repository's root folder:
+
+    git pull
+
 ## Test Driven Development
 
 *Quoting Exercism:*
