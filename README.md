@@ -17,7 +17,7 @@ folder you are in when you run the clone command will be where the files end up.
 To run the tests for the first challenge:
 
     cd OO-Ruby-Challenges\01-hello-world
-    ruby ruby hello_world_test.rb
+    ruby hello_world_test.rb
 
 As your instructor adds more challenges to the repo you can update your clone.
 Run the following from the repository's root folder:
