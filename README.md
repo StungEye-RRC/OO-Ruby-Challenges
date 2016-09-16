@@ -19,10 +19,15 @@ To run the tests for the first challenge:
     cd OO-Ruby-Challenges\01-hello-world
     ruby hello_world_test.rb
 
-As your instructor adds more challenges to the repo you can update your clone.
-Run the following from the repository's root folder:
+Each of the folders in this repository contains a README file and a testing file. Read both the README and the test files for a description of what you need to implement. Your implementation code should go into a ruby file that matches the name of the test file, but with the `_test` portion of the filename remove. For example, in challenge question 01 the test file is named `hello_world_test.rb` so the implementation should go in a `hello_world.rb` file.
 
-    git pull
+### A typical TDD workflow for these challenges:
+
+1. Run the test file and pick one test that's failing.
+2. Write some code to fix the test you picked.
+3. Re-run the tests to confirm the test is now passing.
+4. Remove "skip" from one of the other included tests.
+5. Repeat from step 1.
 
 ## Test Driven Development
 
@@ -35,3 +40,9 @@ Exercism simulates [Test-Driven Development](http://en.wikipedia.org/wiki/Test-d
 The tests are written using [Mini Test](https://github.com/seattlerb/minitest)
 a complete suite of testing facilities supporting TDD, BDD, mocking, and
 benchmarking.
+
+Each folder in this repository contains a single test file. You will need to read the provided test code to figure out what you need to implement in your code. It is important that you understand how tests can pass and fails. 
+
+
+
+
