@@ -9,7 +9,7 @@ challenges.
 
 ## Test Driver Development
 
-**Quoting Exercism:**
+*Quoting Exercism:*
 
 As programmers mature, they eventually want to test their code.
 
