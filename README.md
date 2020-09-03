@@ -1,10 +1,10 @@
 # Object Oriented Ruby Challenges
 
-**Please read this *entire* README carefully before starting the challenge. It is also important to read the README file in each question sub-folder.**
-
 A number of object-oriented coding challenges with tests lovingly borrowed from the [Exercism.io Ruby Track](http://exercism.io/languages/ruby).
 
 If you enjoy these please consider signing up for [exercism.io](http://exercism.io) and submitting your versions of the challenges.
+
+**Please read this *entire* README carefully before starting the challenge. It is also important to read the README file in each question sub-folder.**
 
 ## Fetching and Running the Challenges
 
