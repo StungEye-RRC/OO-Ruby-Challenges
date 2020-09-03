@@ -4,7 +4,7 @@ A number of object-oriented coding challenges with tests lovingly borrowed from 
 
 If you enjoy these please consider signing up for [exercism.io](http://exercism.io) and submitting your versions of the challenges.
 
-**Please read this *entire* README carefully before starting the challenge. It is also important to read the README file in each question sub-folder.**
+**Please read this *entire* README carefully before starting the challenge. It is also important that you read the README file in each question sub-folder.**
 
 ## Fetching and Running the Challenges
 
