@@ -1,25 +1,25 @@
 # Object Oriented Ruby Challenges
 
-A number of object-oriented coding challenges with tests lovingly borrowed from
-the [Exercism.io Ruby Track](http://exercism.io/languages/ruby).
+**Please read this *entire* README carefully before starting the challenge. It is also important to read the README file in each question sub-folder.**
 
-If you enjoy these please consider signing up for
-[exercism.io](http://exercism.io) and submitting your versions of the
-challenges.
+A number of object-oriented coding challenges with tests lovingly borrowed from the [Exercism.io Ruby Track](http://exercism.io/languages/ruby).
+
+If you enjoy these please consider signing up for [exercism.io](http://exercism.io) and submitting your versions of the challenges.
 
 ## Fetching and Running the Challenges
 
-To being you will need to clone this repository from the command prompt. The
-folder you are in when you run the clone command will be where the files end up.
+To being you will need to clone this repository from the command prompt. The folder you are in when you run the clone command will be where the files end up.
 
     git clone https://github.com/StungEye-RRC/OO-Ruby-Challenges.git
+
+Each of the folders in this repository contains a README file and a testing file. Read **both** the README and the test files for a description of what you need to implement. Your implementation code should go into a ruby file that matches the name of the test file, but with the `_test` portion of the filename remove. For example, in challenge question 01 the test file is named `hello_world_test.rb` so the implementation should go in a `hello_world.rb` file.
 
 To run the tests for the first challenge:
 
     cd OO-Ruby-Challenges\01-hello-world
     ruby hello_world_test.rb
-
-Each of the folders in this repository contains a README file and a testing file. Read both the README and the test files for a description of what you need to implement. Your implementation code should go into a ruby file that matches the name of the test file, but with the `_test` portion of the filename remove. For example, in challenge question 01 the test file is named `hello_world_test.rb` so the implementation should go in a `hello_world.rb` file.
+    
+It's expected that you will create the associated `hello_world.rb` and write code in this file to make the `hello_world_text.rb` tests pass.
 
 ### A typical TDD workflow for these challenges:
 
