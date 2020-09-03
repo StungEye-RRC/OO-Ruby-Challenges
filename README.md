@@ -69,4 +69,4 @@ If the method call (the first argument) returns `false` the test will pass. Othe
 
 ### Instance Methods vs Class Methods
 
-In all three cases the method call being tested might be a class method or it could be an instance method. The type of method being tested will determine the type of method you need to implement to make the tests pass.
+In all three cases the method call being tested might be a class method or it could be an instance method. The type of method being tested will determine the type of method you need to implement to make the tests pass. The first questions you should ask yourself for each test is: "What type of method is being tested here? Is it a class method or an instance method?"
