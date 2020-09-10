@@ -16,7 +16,7 @@ Write a program that shows:
 - the total number of grains
 
 
-## For bonus points
+## For An Extra Challenge
 
 Did you get the tests passing and the code clean? If you want to, these
 are some additional things you could try:
