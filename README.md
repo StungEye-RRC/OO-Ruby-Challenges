@@ -8,7 +8,7 @@ If you enjoy these please consider signing up for [exercism.io](http://exercism.
 
 ## Fetching and Running the Challenges
 
-To being you will need to clone this repository from the command prompt. The folder you are in when you run the clone command will be where the files end up.
+To begin you will need to clone this repository from the command prompt. The folder you are in when you run the clone command will be where the files end up.
 
     git clone https://github.com/StungEye-RRC/OO-Ruby-Challenges.git
 
